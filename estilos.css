@@ -225,3 +225,10 @@ body{
     transition: tranform .20 ease;
     transform: translateX(0px);
 }
+
+.container{
+    transform: scale(0);
+}
+.container.active-popup{
+    transform: scale(1);
+}
