@@ -90,7 +90,7 @@ body{
     box-shadow: rgba(17,12,46,0) 0px 48px 100px 0px;
     display: flex;
     align-items: center;
-    overflow: hidden;
+
     transition: all ease .35s;
 }
 .main-box{
@@ -200,4 +200,16 @@ body{
     font-size: 32px;
     z-index: 1;
     border-top-right-radius: 15px;
+    cursor: pointer;
+}
+
+.container .main-box.login{
+    transition: transform .20s ease;
+    transform: translateX(0) ;
+}
+
+.container .main-box.register{
+    position: absolute;
+    transform: translateX(500px);
+    transition: none;
 }
