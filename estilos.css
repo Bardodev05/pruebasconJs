@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "MuseoModerno", cursive;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: blue;
+    padding: 30px 13% ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: white;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar a{
+    position: relative;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 45px;
+}
