@@ -9,3 +9,9 @@ registerlink.addEventListener("click", ()=> {
 loginlink.addEventListener("click", ()=> {
     container.classList.remove("active")
 })
+
+const btnPopup = document.querySelector(".btnlogin-popup");
+
+btnPopup.addEventListener("click", ()=> {
+    container.classList.add("active-popup")
+})
