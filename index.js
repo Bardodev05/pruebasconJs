@@ -15,3 +15,9 @@ const btnPopup = document.querySelector(".btnlogin-popup");
 btnPopup.addEventListener("click", ()=> {
     container.classList.add("active-popup")
 })
+
+const closeIcon = document.querySelector(".close-icon");
+
+closeIcon.addEventListener("click", ()=> {
+    container.classList.remove("active-popup")
+})
