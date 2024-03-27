@@ -223,7 +223,7 @@ body{
     transform: translateX(-500px);
 }
 .container.active .main-box.register{
-    transition: tranform .20 ease;
+    transition: transform .20s ease;
     transform: translateX(0px);
 }
 
